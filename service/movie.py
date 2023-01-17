@@ -5,7 +5,7 @@ class MovieService:
 
     dao = MovieDAO
 
-    def __int__(self, dao: MovieDAO):
+    def __init__(self, dao: MovieDAO):
         self.dao = dao
 
     def get_one(self, mid):
